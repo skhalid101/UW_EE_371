@@ -1,0 +1,17 @@
+	component microprocessor is
+		port (
+			batharriving_export  : out std_logic;        -- export
+			bathleaving_export   : out std_logic;        -- export
+			chamberfull_export   : out std_logic;        -- export
+			clk_clk              : in  std_logic := 'X'; -- clk
+			drain_export         : out std_logic;        -- export
+			drainfinished_export : out std_logic;        -- export
+			fill_export          : out std_logic;        -- export
+			fillfinished_export  : out std_logic;        -- export
+			innerdooropen_export : out std_logic;        -- export
+			outerdooropen_export : out std_logic;        -- export
+			personinside_export  : out std_logic;        -- export
+			reset_reset_n        : in  std_logic := 'X'  -- reset_n
+		);
+	end component microprocessor;
+

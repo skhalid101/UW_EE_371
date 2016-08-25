@@ -1,0 +1,35 @@
+Author: Adolfo Pineda.
+		Katelyn Neff 
+		Sharyar khalid 
+		
+Title: Currency Calculator
+
+
+Abstract: 		 The following program allows the user to enter the rate of change 
+				 of currency as compared with the U.S dollar. It then asks the user
+				 how much the user wanted to convert to either to dollars or 
+				 from dollar to which ever country's currency the user entered 
+
+Introduction: 	 Ever wonder how much an item from the United States costs in
+				 another country? Or how about wanting to know how much an item
+				 from another country costs in the United States? The currency
+				 calculator can help you deduce these costs. The only thing
+				 you need to know is the exchange rate and follow the instructions
+				 the calculator gives you.
+   
+Inputs: (double) exchange rate - There are no limits set to this input, but the
+				 user should be aware that negative or zero conversion rates do
+				 not exist; This the exchange rate used between countries.
+				
+        (double) currency amount - There are no limits set to this input, but the
+				 user should be aware that negative dollars do not exist. Also,
+				 if a non-integer is inputed, then the program does not compute
+				 anything and asks the user if they would like to calculate
+				 another value; This is the money amount the user wants converted.
+				  
+Outputs:(double) total amount - There are no limits set to the size of the conversion
+				 rate or the currency amount, but the output will be rounded to 2 decimal
+				 places (in other words, the nearest cent);
+                  
+Major Functions: The only major function used was the 'main' function where most of the 
+				 above mentioned uses of the program were implemented. 
